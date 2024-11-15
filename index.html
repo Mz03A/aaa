@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cryptocurrency Prices</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Cryptocurrency Prices</h1>
+    <table id="crypto-table">
+      <thead>
+        <tr>
+          <th>Coin</th>
+          <th>Code</th>
+          <th>Price</th>
+          <th>Total Supply</th>
+        </tr>
+      </thead>
+      <tbody id="table-body">
+        <!-- Dynamic rows will be inserted here -->
+      </tbody>
+    </table>
+    <div class="pagination">
+      <button id="prev-page">Previous</button>
+      <span id="page-info"></span>
+      <button id="next-page">Next</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
